@@ -420,4 +420,4 @@ with st.beta_expander('Monte Carlo Simulation'):
             plt.plot(x, i)
         st.pyplot(fig3)
 st.write('Exploring Monte Carlo Simulation with Streamlit')
-st.write('Emmanuel Derisse, Jungmin Sung, Zhishan Lian)
+st.write('Emmanuel Derisse, Jungmin Sung, Zhishan Lian')
