@@ -419,3 +419,5 @@ with st.beta_expander('Monte Carlo Simulation'):
         for i in ebit_list_of_lists:
             plt.plot(x, i)
         st.pyplot(fig3)
+st.write('Exploring Monte Carlo Simulation with Streamlit')
+st.write('Emmanuel Derisse, Jungmin Sung, Zhishan Lian)
