@@ -175,12 +175,9 @@ if status_radio == 'Search':
 
 with st.beta_expander('Monte Carlo Simulation'):
 
-    st.subheader('Random variables')
+    st.subheader('Variables')
     st.write('When conducting a company valuation through a Monte Carlo simulation, \
-        a variety of input metrics can be treated as random variables. Such \
-        variables can be distributed according to different distributions. \
-        Below, please specify the distribution from which the respective \
-        variable values should be drawn.')
+        a variety of input metrics can be treated as random variables.')
 
     parameter_dict_1 = {
         'latest revenue' : 0,
