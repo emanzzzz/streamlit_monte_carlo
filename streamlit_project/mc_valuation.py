@@ -419,7 +419,3 @@ with st.beta_expander('Monte Carlo Simulation'):
         for i in ebit_list_of_lists:
             plt.plot(x, i)
         st.pyplot(fig3)
-
-st.write('Disclaimer: Information and output provided on this site do \
-    not constitute investment advice.')
-st.write('Copyright (c) 2021 Julian Marx')
